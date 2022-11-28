@@ -78,4 +78,5 @@ Bakiyenizi kontrol edin:  ``./gnite-test --balance "your public address"``
 cd goAdamnite/Ubuntu
 chmod +x gnite-test
 ```
+* EROR[11-28|15:26:58] could not decrypt key with given password hatası şifre yanlış
 
