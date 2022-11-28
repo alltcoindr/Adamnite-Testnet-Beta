@@ -58,6 +58,7 @@ Bakiyenizi kontrol edin:  ``./gnite-test --balance "your public address"``
 * ``"alıcıadres"`` --> göndermek istediğiniz kişinin adresi
 * ``"gönderenadress"`` --> sizin adresiniz
 * ``"miktar"`` --> miktar girin. 0.01 şeklinde miktar girmeyin sadece 1, 2, 3 şeklinde sayı girebilirsiniz
+* Bana göndermek isterseniz ``48kZMAfGrBA4VfjMC6xAM4nE6VRj``
 
 ```
 ./gnite-test --sendaddr gönderenadres --recaddr alıcıadres --amount miktar  --password şifreniz --txtype true
