@@ -55,12 +55,12 @@ screen -S adamnite
 * Yukarıda almış olduğunuz public key aşağıdaki --> "your public address" ile değiştirin 
 
 Bakiyenizi kontrol edin:  ``./gnite-test --balance "your public address"``
-* ``"the address you want to send coins to"`` --> göndermek istediğiniz kişinin adresi
-* ``"your public address"`` --> sizin adresiniz
-* ``"the amount you want to send"`` --> miktar girin
+* ``"alıcıadres"`` --> göndermek istediğiniz kişinin adresi
+* ``"gönderenadress"`` --> sizin adresiniz
+* ``"miktar"`` --> miktar girin. 0.01 şeklinde miktar girmeyin sadece 1, 2, 3 şeklinde sayı girebilirsiniz
 
 ```
-./gnite-test --sendaddr "the address you want to send coins to" --recaddr "your public address" --amount "the amount you want to send"
+./gnite-test --sendaddr gönderenadres --recaddr alıcıadres --amount miktar  --password şifreniz --txtype true
 ```
 
 ### Stake
@@ -78,5 +78,5 @@ Bakiyenizi kontrol edin:  ``./gnite-test --balance "your public address"``
 cd goAdamnite/Ubuntu
 chmod +x gnite-test
 ```
-* EROR[11-28|15:26:58] could not decrypt key with given password hatası şifre yanlış
-
+* ``EROR[11-28|15:26:58] could not decrypt key with given password`` --> hatası aldığınızda --password flagı en sonda olmamalı
+* ``flag provided but not defined: -tx0.0type`` --> hatası alırsanız göndereceğiniz tutar kesirli demektir. Tam sayı yapınız.
