@@ -61,15 +61,17 @@ Bakiyenizi kontrol edin:  ``./gnite-test --balance "your public address"``
 * Bana göndermek isterseniz ``48kZMAfGrBA4VfjMC6xAM4nE6VRj``
 
 ```
-./gnite-test --sendaddr gönderenadres --recaddr alıcıadres --amount miktar  --password şifreniz --txtype true
+./gnite-test --sendaddr gönderenadres --recaddr alıcıadres --amount miktar  --password şifreniz
 ```
 
 ### Stake
-* ``"your address"`` --> yerine public key adresiniz
-* ``"the account you want to stake your coins to (can be one of the public accounts listed in the beta testing channel)"`` --> yerine dc de ``beta-testing`` kanalında paylaşılan adreslerden birini girin
-* ``"the amount you want to send"`` --> göndermek istediğiniz miktarı girin.
+* ``"alıcıadres"`` --> stake edeceğiniz kişinin adresi
+* ``"gönderenadress"`` --> sizin adresiniz
+* ``"miktar"`` --> miktar girin. 0.01 şeklinde miktar girmeyin sadece 1, 2, 3 şeklinde sayı girebilirsiniz
+* Bana göndermek isterseniz ``48kZMAfGrBA4VfjMC6xAM4nE6VRj``
+* Dikkat!!! kodlarda Token Gönderme ve stake arasındaki tek fark ``--txtype true``
 ```
-./gnite-test --sendaddr "your address" --recaddr "the account you want to stake your coins to (can be one of the public accounts listed in the beta testing channel)" --amount "the amount you want to send" --txtype true
+./gnite-test --sendaddr gönderenadres --recaddr alıcıadres --amount miktar  --password şifreniz --txtype true
 ```
 ### Yararlı Komutlar:
 
