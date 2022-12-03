@@ -73,7 +73,7 @@ Bakiyenizi kontrol edin:  ``./gnite-test --balance "your public address"``
 ```
 ./gnite-test --sendaddr gönderenadres --recaddr alıcıadres --amount miktar  --password şifreniz --txtype true
 ```
-### Yararlı Komutlar:
+### Hatalar ve Düzeltme işlemleri:
 
 *  ``./gnite-test -h`` kullanılabilecek komutları görebilmek için.
 * ``./gnite-test --balance "your public address"`` bakiye kontrolü yaparken ``-bash: ./gnite-test: Permission denied`` hatası alırsanız. aşağıdaki komutları girin.
