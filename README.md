@@ -84,3 +84,4 @@ chmod +x gnite-test
 * ``EROR[11-28|15:26:58] could not decrypt key with given password`` --> hatası aldığınızda --password flagı en sonda olmamalı
 * ``flag provided but not defined: -tx0.0type`` --> hatası alırsanız göndereceğiniz tutar kesirli demektir. Tam sayı yapınız.
 * ``./gnite-test: Permission denied`` --> hatası için ``chmod +x gnite-test`` komutunu deneyin. goAdamnite/Ubuntu klasörünün içinde oldunuzdan emin olun.
+* ``EROR[11-30|07:17:27] open /root/.adamnite/keys/ADAMNITE-54317a786d6467647345385657467269447867555666465346777a: no such file or directory`` --> hatası alırsanız. Winscp ile sunucunuza bağlanın ``/root/.adamnite/keys/`` klasörüne gidin. ``ADAMNITE-00`` ile başlayan dosyanın başındaki iki tane sıfırı silin.
