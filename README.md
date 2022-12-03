@@ -83,3 +83,4 @@ chmod +x gnite-test
 ```
 * ``EROR[11-28|15:26:58] could not decrypt key with given password`` --> hatası aldığınızda --password flagı en sonda olmamalı
 * ``flag provided but not defined: -tx0.0type`` --> hatası alırsanız göndereceğiniz tutar kesirli demektir. Tam sayı yapınız.
+* ``./gnite-test: Permission denied`` --> hatası için ``chmod +x gnite-test`` komutunu deneyin. goAdamnite/Ubuntu klasörünün içinde oldunuzdan emin olun.
